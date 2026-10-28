@@ -1,0 +1,18 @@
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-10-28 13:24 -0600
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000097s latency).
+Other addresses for localhost (not scanned): ::1
+Not shown: 997 closed tcp ports (conn-refused)
+PORT     STATE SERVICE    VERSION
+631/tcp  open  ipp        CUPS 2.4
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-title: Home - CUPS 2.4.16
+|_http-server-header: CUPS/2.4 IPP/2.1
+4000/tcp open  http       Node.js Express framework
+|_http-title: Site doesn't have a title (application/json; charset=utf-8).
+|_http-cors: HEAD GET POST PUT DELETE PATCH
+5544/tcp open  postgresql PostgreSQL DB 9.6.0 or later
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 6.91 seconds
