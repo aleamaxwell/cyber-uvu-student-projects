@@ -1,1 +1,54 @@
-semgrep: command not found
+                   
+                   
+┌─────────────────┐
+│ 3 Code Findings │
+└─────────────────┘
+                                    
+  [36m[22m[24m  client/index.html[0m
+    ❯❱ [1mhtml.security.audit.missing-integrity.missing-integrity[0m
+          [31m[1m[24m❰❰ Blocking ❱❱[0m
+          This tag is missing an 'integrity' subresource integrity    
+          attribute. The 'integrity' attribute allows for the browser 
+          to verify that externally hosted files (for example from a  
+          CDN) are delivered without unexpected manipulation. Without 
+          this attribute, if an attacker can modify the externally    
+          hosted resource, this could lead to XSS and other types of  
+          attacks. To prevent this, include the base64-encoded        
+          cryptographic hash of the resource (file) you’re telling the
+          browser to fetch in the 'integrity' attribute for all       
+          externally hosted files.                                    
+          Details: https://sg.run/krXA                                
+                                                                      
+           18┆ <link
+           19┆   rel="icon"
+           20┆   href="data:image/svg+xml,%3Csvg                  
+               xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100
+               100'%3E%3Ctext y='.9em' font-                      
+               size='90'%3E%F0%9F%8E%82%3C/text%3E%3C/svg%3E"     
+           21┆ />
+                                   
+  [36m[22m[24m  server/src/db.js[0m
+    ❯❱ [1mproblem-based-packs.insecure-transport.js-node.bypass-tls-[0m
+  [1m     verification.bypass-tls-verification[0m                      
+          [31m[1m[24m❰❰ Blocking ❱❱[0m
+          Checks for setting the environment variable                 
+          NODE_TLS_REJECT_UNAUTHORIZED to 0, which disables TLS       
+          verification. This should only be used for debugging        
+          purposes. Setting the option rejectUnauthorized to false    
+          bypasses verification against the list of trusted CAs, which
+          also leads to insecure transport. These options lead to     
+          vulnerability to MTM attacks, and should not be used.       
+          Details: https://sg.run/9oxr                                
+                                                                      
+           17┆ const ssl = PGSSL === 'true' ? {        
+               rejectUnauthorized: false } : undefined;
+                                
+  [36m[22m[24m  solution.html[0m
+    ❯❱ [1mhtml.security.plaintext-http-link.plaintext-http-link[0m
+          [31m[1m[24m❰❰ Blocking ❱❱[0m
+          This link points to a plaintext HTTP URL. Prefer an
+          encrypted HTTPS URL if possible.                   
+          Details: https://sg.run/RA5q                       
+                                                             
+          140┆ <p>Open <a href="http://localhost:5173">http://loca
+               lhost:5173</a>.</p>                                
