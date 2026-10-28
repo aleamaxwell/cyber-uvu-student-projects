@@ -1,0 +1,41 @@
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-10-28 14:01 -0600
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000011s latency).
+Other addresses for localhost (not scanned): ::1
+
+PORT     STATE SERVICE VERSION
+5173/tcp open  unknown
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port5173-TCP:V=7.98%I=7%D=10/28%Time=6AE254B8%P=x86_64-pc-linux-gnu%r(G
+SF:etRequest,5B8,"HTTP/1\.1\x20200\x20OK\r\nVary:\x20Origin\r\nContent-Typ
+SF:e:\x20text/html\r\nCache-Control:\x20no-cache\r\nEtag:\x20W/\"502-/mZK4
+SF:ZvsrCFk7byXEhBSh6uQNcU\"\r\nDate:\x20Wed,\x2028\x20Oct\x202026\x2020:02
+SF::00\x20GMT\r\nConnection:\x20close\r\n\r\n<!doctype\x20html>\n<html\x20
+SF:lang=\"en\">\n\x20\x20<head>\n\x20\x20\x20\x20<script\x20type=\"module\
+SF:">import\x20{\x20injectIntoGlobalHook\x20}\x20from\x20\"/@react-refresh
+SF:\";\ninjectIntoGlobalHook\(window\);\nwindow\.\$RefreshReg\$\x20=\x20\(
+SF:\)\x20=>\x20{};\nwindow\.\$RefreshSig\$\x20=\x20\(\)\x20=>\x20\(type\)\
+SF:x20=>\x20type;</script>\n\n\x20\x20\x20\x20<script\x20type=\"module\"\x
+SF:20src=\"/@vite/client\"></script>\n\n\x20\x20\x20\x20<meta\x20charset=\
+SF:"UTF-8\"\x20/>\n\x20\x20\x20\x20<meta\x20name=\"viewport\"\x20content=\
+SF:"width=device-width,\x20initial-scale=1\.0\"\x20/>\n\x20\x20\x20\x20<me
+SF:ta\x20name=\"theme-color\"\x20content=\"#0b0620\"\x20/>\n\x20\x20\x20\x
+SF:20<meta\n\x20\x20\x20\x20\x20\x20name=\"description\"\n\x20\x20\x20\x20
+SF:\x20\x20content=\"Birthday\x20Memory\x20\xe2\x80\x94\x20keep\x20every\x
+SF:20birthday\x20close\x20with\x20a\x20colorful\x20list,\x20search\x20and\
+SF:x20calendar\.\"\n\x20\x20\x20\x20/>\n\x20\x20\x20\x20<title>Birthday\x2
+SF:0Memory</title>\n\x20\x20\x20\x20<link\x20rel=\"preconnect\"\x20href=\"
+SF:https://fonts\.googleapis\.com\"\x20/>\n\x20\x20\x20\x20<link\x20rel=\"
+SF:pr")%r(HTTPOptions,D2,"HTTP/1\.1\x20204\x20No\x20Content\r\nVary:\x20Or
+SF:igin,\x20Access-Control-Request-Headers\r\nAccess-Control-Allow-Methods
+SF::\x20GET,HEAD,PUT,PATCH,POST,DELETE\r\nContent-Length:\x200\r\nDate:\x2
+SF:0Wed,\x2028\x20Oct\x202026\x2020:02:00\x20GMT\r\nConnection:\x20close\r
+SF:\n\r\n")%r(RTSPRequest,D2,"HTTP/1\.1\x20204\x20No\x20Content\r\nVary:\x
+SF:20Origin,\x20Access-Control-Request-Headers\r\nAccess-Control-Allow-Met
+SF:hods:\x20GET,HEAD,PUT,PATCH,POST,DELETE\r\nContent-Length:\x200\r\nDate
+SF::\x20Wed,\x2028\x20Oct\x202026\x2020:02:00\x20GMT\r\nConnection:\x20clo
+SF:se\r\n\r\n")%r(RPCCheck,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConne
+SF:ction:\x20close\r\n\r\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 11.65 seconds
