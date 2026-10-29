@@ -1,0 +1,25 @@
+total 124K
+drwxrwxr-x 2 admin1 admin1 4.0K Oct 29 11:16 .
+drwxrwxr-x 6 admin1 admin1 4.0K Oct 28 13:45 ..
+-rw-rw-r-- 1 admin1 admin1 2.0K Oct 29 11:16 admin-test.txt
+-rw-rw-r-- 1 admin1 admin1 2.0K Oct 28 13:45 app.log
+-rw-rw-r-- 1 admin1 admin1 2.0K Oct 29 11:16 assets-test.txt
+-rw-rw-r-- 1 admin1 admin1 2.0K Oct 29 11:16 backup-zip-test.txt
+-rw-rw-r-- 1 admin1 admin1  679 Oct 29 11:16 curl-headers.txt
+-rw-rw-r-- 1 admin1 admin1  707 Oct 29 11:16 curl-options.txt
+-rw-rw-r-- 1 admin1 admin1 2.5K Oct 29 11:16 curl-response.txt
+-rw-rw-r-- 1 admin1 admin1 2.0K Oct 29 11:16 env-test.txt
+-rw-rw-r-- 1 admin1 admin1 2.0K Oct 29 11:16 git-config-test.txt
+-rw-rw-r-- 1 admin1 admin1    3 Oct 28 13:45 gitleaks.json
+-rw-rw-r-- 1 admin1 admin1 2.0K Oct 29 11:16 login-test.txt
+-rw-rw-r-- 1 admin1 admin1 2.8K Oct 28 14:02 nmap-localhost-5173.txt
+-rw-rw-r-- 1 admin1 admin1  802 Oct 28 13:45 nmap.txt
+-rw-rw-r-- 1 admin1 admin1  487 Oct 29 11:13 npm-audit.txt
+-rw-rw-r-- 1 admin1 admin1 1.1K Oct 29 11:16 package-json-test.txt
+-rw-rw-r-- 1 admin1 admin1  29K Oct 29 11:16 package-lock-test.txt
+-rw-rw-r-- 1 admin1 admin1 2.0K Oct 29 11:16 robots.txt
+-rw-rw-r-- 1 admin1 admin1    0 Oct 29 11:16 security-file-list.txt
+-rw-rw-r-- 1 admin1 admin1 3.2K Oct 28 13:55 semgrep.txt
+-rw-rw-r-- 1 admin1 admin1 5.7K Oct 28 13:45 trivy-fs.txt
+-rw-rw-r-- 1 admin1 admin1 1.2K Oct 28 13:45 trivy-secrets.txt
+-rw-r--r-- 1 admin1 admin1  697 Oct 28 13:46 zap.yaml

@@ -1,0 +1,63 @@
+* Host localhost:5173 was resolved.
+* IPv6: ::1
+* IPv4: 127.0.0.1
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0*   Trying [::1]:5173...
+* connect to ::1 port 5173 from ::1 port 58654 failed: Connection refused
+*   Trying 127.0.0.1:5173...
+* Established connection to localhost (127.0.0.1 port 5173) from 127.0.0.1 port 39744 
+* using HTTP/1.x
+> GET / HTTP/1.1
+> Host: localhost:5173
+> User-Agent: curl/8.18.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 200 OK
+< Vary: Origin
+< Content-Type: text/html
+< Cache-Control: no-cache
+< Etag: W/"502-/mZK4ZvsrCFk7byXEhBSh6uQNcU"
+< Date: Thu, 29 Oct 2026 17:16:12 GMT
+< Connection: keep-alive
+< Keep-Alive: timeout=5
+< Content-Length: 1282
+< 
+{ [1282 bytes data]
+100   1282 100   1282   0      0  31234      0                              0100   1282 100   1282   0      0  31061      0                              0100   1282 100   1282   0      0  30896      0                              0
+* Connection #0 to host localhost:5173 left intact
+<!doctype html>
+<html lang="en">
+  <head>
+    <script type="module">import { injectIntoGlobalHook } from "/@react-refresh";
+injectIntoGlobalHook(window);
+window.$RefreshReg$ = () => {};
+window.$RefreshSig$ = () => (type) => type;</script>
+
+    <script type="module" src="/@vite/client"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b0620" />
+    <meta
+      name="description"
+      content="Birthday Memory — keep every birthday close with a colorful list, search and calendar."
+    />
+    <title>Birthday Memory</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%82%3C/text%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

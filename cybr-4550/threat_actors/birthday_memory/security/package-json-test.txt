@@ -1,0 +1,33 @@
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0100    359 100    359   0      0  41904      0                              0100    359 100    359   0      0  41155      0                              0100    359 100    359   0      0  40246      0                              0
+HTTP/1.1 200 OK
+Vary: Origin
+Content-Length: 359
+Content-Type: application/json
+Last-Modified: Wed, 28 Oct 2026 19:05:36 GMT
+ETag: W/"359-1793214336469"
+Cache-Control: no-cache
+Date: Thu, 29 Oct 2026 17:16:12 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+  "name": "birthday-memory-client",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.1",
+    "vite": "^8.3.0"
+  }
+}

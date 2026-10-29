@@ -1,0 +1,15 @@
+# npm audit report
+
+shell-quote  1.8.4 - 1.10.0
+Severity: critical
+shell-quote: `quote()` command injection via a line terminator in a token after a `{ comment }` token - https://github.com/advisories/GHSA-pqg4-j6r4-53mv
+fix available via `npm audit fix`
+node_modules/shell-quote
+  concurrently  9.2.3 - 9.2.4 || 10.0.0 - 10.0.5
+  Depends on vulnerable versions of shell-quote
+  node_modules/concurrently
+
+2 critical severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix
