@@ -1,0 +1,6 @@
+           List of relations
+ Schema |   Name    | Type  |  Owner   
+--------+-----------+-------+----------
+ public | birthdays | table | birthday
+(1 row)
+
